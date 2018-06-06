@@ -53,7 +53,7 @@ public final class ValidationResult {
 	 * @return the messages
 	 */
 	public List<String> getMessages() {
-		return new ArrayList<String>(messages);
+		return new ArrayList<>(messages);
 	}
 
 	/**

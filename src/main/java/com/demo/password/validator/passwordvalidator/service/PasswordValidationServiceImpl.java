@@ -58,7 +58,7 @@ public class PasswordValidationServiceImpl implements PasswordValidationService 
 	public ValidationResult validate(final String password) {
 		logger.info(PASSWORD_VALIDATION);
 
-		Set<String> messages = new HashSet<String>();
+		Set<String> messages = new HashSet<>();
 		boolean isValid = true;
 		int numberOfRulesExecuted = 0;
 
